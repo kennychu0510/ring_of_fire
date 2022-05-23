@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="index.css">
-    <title>Ring Of Fire</title>
-</head>
-<body>
-    
-    <script src="index.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="beer.png" type="image/x-icon" />
+        <link rel="stylesheet" href="index.css" />
+        <title>Ring Of Fire</title>
+    </head>
+    <body>
+        <main>
+            <div id="logo"><img src="logo.png" alt="" /></div>
+            <div id="card-count"><span>56</span>/56</div>
+            <div id="card">
+                <img src="beer.png" alt="" />
+            </div>
+            <button id="draw">Draw</button>
+            <table>
+                <tr id="drinker">
+                    <td><img src="beer.png" alt="Drinker"></i></td>
+                    <td></td>
+                </tr>
+                <tr  id="crazy">
+                    <td><img src="crazy.png" alt="Crazy"></i></td>
+                    <td></td>
+                </tr>
+                <tr class="toilet">
+                    <td><img src="toilet.png" alt="Toilet"></td>
+                    <td class="toilet-owner"></td>
+                </tr>
+                <tr class="joker">
+                    <td><img src="joker.png" alt="Joker"></td>
+                    <td class="joker-owner"></td>
+                </tr>
+            </table>
+        </main>
+        <script src="https://kit.fontawesome.com/a186d0ec57.js" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
 </html>
