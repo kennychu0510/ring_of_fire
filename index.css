@@ -77,4 +77,5 @@ td:first-child {
 td:last-child {
     font-size: 0.8em;
     width: 80%;
+    text-align: left;
 }
